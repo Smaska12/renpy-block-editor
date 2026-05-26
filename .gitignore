@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Qt / PySide6 specific
+*.ui
+*.qrc
+*.ts
+*.qm
+*.moc
+*.h
+*.cpp
+Makefile
+CMakeCache.txt
+CMakeFiles/
+
+# Project-specific (если есть)
+*.log
+*.tmp
+*.bak
+*.old
+temp/
+tmp/
+test_project/
+renpy-sdk/
+game/images/cache/
+game/audio/cache/
+project.json.bak
+script.rpy.bak
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+._*
+.AppleDouble
+.LSOverride
+
+# Logs and runtime data
+*.log
+debug.log
+error.log
+session.dat
+config.ini.local
